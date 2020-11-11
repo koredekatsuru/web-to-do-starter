@@ -93,11 +93,7 @@ class TaskServiceImplUnitTest {
     	
         //タスクが取得できないとTaskNotFoundExceptionが発生することを検査
         try {
-<<<<<<< HEAD
             taskServiceImpl.getTask(0);
-=======
-        	Optional<Task> task0 = taskServiceImpl.getTask(0);
->>>>>>> d203260c793f18855bf76210fff5497848744a68
         } catch (TaskNotFoundException e) {
         	assertEquals(e.getMessage(), "指定されたタスクが存在しません");
         }
