@@ -20,7 +20,6 @@ import org.springframework.dao.EmptyResultDataAccessException;
 
 import com.example.demo.entity.Task;
 import com.example.demo.repository.TaskDao;
-import com.jayway.jsonpath.Option;
 
 @ExtendWith(MockitoExtension.class)
 @DisplayName("TaskServiceImplの単体テスト")
